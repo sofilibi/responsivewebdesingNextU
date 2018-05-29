@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fundamentos de HTML</title>
+	<meta charset="utf-8" >
+	<meta name="author" content="Sofia Tejada">
+	
+</head>
+<body style="background-color:#E6D6FA;">
+
+<img src="images/logo.svg" width="200px" height="200px">
+
+
+ <h1 style="color:#000; font-size: 45px" ><em>Hoja de Vida</em></h1>
+  <h2 style="color:#444; font-size: 35px; font-family: 'Source Sans Pro'">Datos Personales</h2>
+  <h3 style="color:#444; font-family: 'Source Sans Pro'">Nombres: Sophie</h3>
+  <h3 style="color:#444; font-family: 'Source Sans Pro'">Apellidos: Tejada Carranza</h3>
+  <h3 style="color:#444; font-family: 'Source Sans Pro'">Lugar Nacimiento: Lima-Peru</h3>
+  <h3 style="color:#444; font-family: 'Source Sans Pro'">Fecha Nacimiento: 6 Julio 1991</h3>
+  <p > <span style="color:#444; font-family: 'Source Sans Pro'; background-color: #80ced6;"><a href="index.html">Inicio</a> | <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a></span></p>
+   <h2 style="color:#444; font-size: 35px; font-family: 'Source Sans Pro'">Educación</h2>
+ 
+
+ 
+
+ <table style="color:#444; font-family: 'Source Sans Pro'; border-color: black; border-width: 0.5px; border: dashed;" width="600px">
+  <tr>
+    <th>Año</th>
+    <th>Institución</th>
+    <th>Curso/Especilidad</th>
+    <th>Culminó?</th>
+  </tr>
+  <tr>
+    <td>2018</td>
+    <td>NextU</td>
+    <td>Responsive Web Design</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>2018</td>
+    <td>NextU</td>
+    <td>Desarrollador Web</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>Universidad San Ignacio de Loyola</td>
+    <td>Inegniería de Software</td>
+    <td>Si</td>
+  </tr>
+</table>
+
+ <h3 style="color:#444; font-size: 30px; font-family: 'Source Sans Pro'">Agregar Estudios</h3>
+ 
+<form action="" style="color:#444; font-size: 16px; font-family: 'Source Sans Pro'">
+   <p>
+    <label for="year">Año: </label>
+    &nbsp;&nbsp;&nbsp;
+    <select name="year">
+      <option value="1" selected="">2018</option>
+      <option value="2">2017</option>
+      <option value="3">2016</option>
+    </select>
+  </p>
+ 
+  <p>
+    <label for="institutio">Institución:</label>
+  &nbsp;&nbsp;&nbsp;
+    <input type="text" name="institution" placeholder="Ej: NextU" autofocus required>
+  </p>
+ 
+  <p>
+    <label for="place">Lugar: </label>
+   &nbsp;&nbsp;&nbsp;
+     <input type="text" name="place" placeholder="Ej: Lima" required>
+  </p>
+ 
+
+ 
+
+ 
+
+  <p>
+    <input type="submit" value="Enviar">
+  </p>
+</form>
+
+
+<footer style="font-family: 'Source Sans Pro'; background-color: #d5f4e6;"> <p><hr/><em>Información de contacto:</em></br></br> E-mail: sofilibi@gmail.com | Teléfono: 955-555-555 | Twitter: <a href="https://twitter.com/intent/tweet?screen_name=@sophietrojan" target="_blank"> @sophietrojan</a></p></footer>
+</body>
+</html>
